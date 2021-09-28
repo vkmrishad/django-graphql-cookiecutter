@@ -32,7 +32,7 @@ Access it through **http://127.0.0.1:8000**
   
 ## Run Celery Tasks   
 
-    $ celery -A backend worker --beat --loglevel=info -E --concurrency=10
+    $ celery -A backend worker --loglevel=info -E --concurrency=10
 
 ## Export Requirements  
 
@@ -46,3 +46,4 @@ Access it through **http://127.0.0.1:8000**
 
 ## Notes
 * [Following style guide](https://github.com/reckonsys/guides)
+* Deployment (Docker) - [Bigga](https://github.com/vkmrishad/bigga/tree/community) or [AWS Copilot](https://github.com/aws/copilot-cli)
