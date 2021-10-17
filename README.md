@@ -34,7 +34,8 @@ Access it through **http://127.0.0.1:8000**
 
     $ celery -A backend worker --loglevel=info -E --concurrency=10
 
-## Export Requirements  
+## Export Requirements
+[Poetry Documentation](https://python-poetry.org/docs/)
 
     $  poetry export -f requirements.txt --output requirements.txt
 
