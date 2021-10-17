@@ -34,7 +34,8 @@ Access it through **http://127.0.0.1:8000**
 
     $ celery -A backend worker --loglevel=info -E --concurrency=10
 
-## Export Requirements  
+## Export Requirements
+[Poetry Documentation](https://python-poetry.org/docs/)
 
     $  poetry export -f requirements.txt --output requirements.txt
 
@@ -43,7 +44,3 @@ Access it through **http://127.0.0.1:8000**
 * Python: 3.8+
 * PostgreSQL: 12+
 * Redis: 3.5+
-
-## Notes
-* [Following style guide](https://github.com/reckonsys/guides)
-* Deployment (Docker) - [Bigga](https://github.com/vkmrishad/bigga/tree/community) or [AWS Copilot](https://github.com/aws/copilot-cli)
